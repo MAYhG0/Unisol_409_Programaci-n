@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>UNISOL</title>
+  <link rel="stylesheet" href="otro.css">
+</head>
+<body>
+  <!-- Video de fondo -->
+  <video autoplay muted loop id="bg-video">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <!-- Header -->
+  <header>
+    <img src="logo_izq.png" alt="Logo Izquierdo" class="logo">
+    <h1>UNISOL</h1>
+    <img src="logo_der.png" alt="Logo Derecho" class="logo">
+  </header>
+
+  <!-- Menú lateral -->
+  <aside class="sidebar">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#problematica">Problemática</a></li>
+        <li><a href="#proposito">Propósito</a></li>
+        <li><a href="#carrusel">Galería</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Contenido -->
+  <main class="contenido">
+    <section id="inicio" class="seccion"><h2>Inicio</h2><p>Bienvenido a UNISOL.</p></section>
+    <section id="problematica" class="seccion"><h2>Problemática</h2><p>Información sobre el impacto ambiental del unicel.</p></section>
+    <section id="proposito" class="seccion"><h2>Propósito</h2><p>Transformar residuos en productos útiles.</p></section>
+
+    <!-- Carrusel -->
+    <section id="carrusel" class="seccion">
+      <h2>Galería</h2>
+      <div class="carousel">
+        <div class="slides">
+          <img src="img1.jpg" alt="Imagen 1">
+          <img src="img2.jpg" alt="Imagen 2">
+          <img src="img3.jpg" alt="Imagen 3">
+        </div>
+        <div class="indicators"></div>
+      </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="seccion">
+      <h2>Ubicación</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <!-- Formulario -->
+    <section id="formulario" class="seccion">
+      <h2>Formulario</h2>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Mensaje o solicitud"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <p>Tel: 55-1234-5678</p>
+      <p>Email: contacto@unisol.com</p>
+    </section>
+  </main>
+
+  <script src="otro.js"></script>
+</body>
+</html>
