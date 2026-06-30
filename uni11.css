@@ -441,6 +441,7 @@ header h1{
 .imagen-derecha{
     width:110px;
 }
+
 .logos{
     grid-template-columns:1fr;
 }
