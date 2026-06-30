@@ -423,15 +423,15 @@ header{
 @media(max-width:600px){
 
 header h1{
-    font-size:250px;
+    font-size:100px;
 }
 
 .logo-izquierda{
-    width:350px;
+    width:100px;
 }
 
 .imagen-derecha{
-    width:350px;
+    width:100px;
 }
 
 .logos{
