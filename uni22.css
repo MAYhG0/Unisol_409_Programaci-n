@@ -419,15 +419,23 @@ header{
 }
 
 }
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+  #video-header {
+    height: auto;          /* que se ajuste al contenido */
+    max-height: 200px;     /* más compacto en móvil */
+    object-fit: cover;     /* sigue cubriendo el espacio */
+    opacity: 0.7;          /* un poco más tenue para que el texto resalte */
+ }}
 
 @media(max-width:600px){
 
 header h1{
-    font-size:70px;
+    font-size:40px;
 }
 
 .logo-izquierda{
-    width:50px;
+    width:60px;
 }
 
 .imagen-derecha{
