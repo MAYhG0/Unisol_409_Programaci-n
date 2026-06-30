@@ -535,3 +535,45 @@ header h1{
   font-weight: bold;
   color: #22c55e; /* verde institucional */
 }
+/* Carrusel en pantallas medianas */
+@media (max-width: 900px) {
+  .carrusel {
+    width: 90%;          /* ocupa casi todo el ancho */
+    height: 300px;       /* más compacto */
+    margin: 20px auto;
+  }
+
+  .carrusel .imagenes img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* mantiene proporción */
+  }
+}
+
+/* Carrusel en pantallas pequeñas (teléfono) */
+@media (max-width: 600px) {
+  .carrusel {
+    width: 95%;          /* casi todo el ancho */
+    height: 220px;       /* más pequeño para móvil */
+    margin: 15px auto;
+    border: 1px solid #00ff88; /* borde más delgado */
+    box-shadow: 0 0 10px rgba(0, 255, 128, 0.6);
+  }
+
+  .carrusel .imagenes img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* evita distorsión */
+    transform: scale(0.9); /* se ajusta mejor */
+  }
+
+  .indicadores {
+    bottom: 5px; /* más cerca del borde */
+    gap: 4px;
+  }
+
+  .indicadores span {
+    width: 6px;
+    height: 6px;
+  }
+}
