@@ -425,21 +425,21 @@ header{
     height: auto;          /* que se ajuste al contenido */
     max-height: 200px;     /* más compacto en móvil */
     object-fit: cover;     /* sigue cubriendo el espacio */
-    opacity: 0.7;          /* un poco más tenue para que el texto resalte */
+    opacity: 0.9;          /* un poco más tenue para que el texto resalte */
  }}
 
 @media(max-width:600px){
 
 header h1{
-    font-size:40px;
+    font-size:55px;
 }
 
 .logo-izquierda{
-    width:80px;
+    width:95px;
 }
 
 .imagen-derecha{
-    width:90px;
+    width:100px;
 }
 .logos{
     grid-template-columns:1fr;
