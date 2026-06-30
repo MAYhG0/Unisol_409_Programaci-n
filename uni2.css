@@ -595,15 +595,15 @@ header h1{
   }
 
   .logo-izquierda {
-    width: 200px;             /* tamaño más compacto */
+    width: 600px;             /* tamaño más compacto */
   }
 
   header h1 {
-    font-size: 100px;          /* título más pequeño */
+    font-size: 500px;          /* título más pequeño */
   }
 
   .imagen-derecha {
-    width: 400px;              /* logo derecho más chico */
+    width: 800px;              /* logo derecho más chico */
     margin-top: 10px;
   }
 
