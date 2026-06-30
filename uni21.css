@@ -441,7 +441,6 @@ header h1{
 .imagen-derecha{
     width:90px;
 }
-
 .logos{
     grid-template-columns:1fr;
 }
@@ -459,7 +458,7 @@ header h1{
 @media (max-width: 768px) {
     .carrusel {
         width: 90%;          /* ocupa casi todo el ancho */
-        height: 250px;       /* más compacto en pantallas pequeñas */
+        height: 250px;       /* más conpacto en pantallas pequeñas */
     }
 }
 
