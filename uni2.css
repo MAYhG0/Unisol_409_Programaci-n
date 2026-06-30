@@ -577,3 +577,46 @@ header h1{
     height: 6px;
   }
 }
+
+/* Header en móvil */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;   /* logo y título arriba */
+    justify-content: center;
+    align-items: center;
+    height: auto;             /* que se ajuste al contenido */
+    padding: 10px;
+    text-align: center;
+  }
+
+  .izquierda {
+    flex-direction: column;   /* logo encima del título */
+    gap: 8px;
+  }
+
+  .logo-izquierda {
+    width: 120px;             /* tamaño más compacto */
+  }
+
+  header h1 {
+    font-size: 40px;          /* título más pequeño */
+  }
+
+  .imagen-derecha {
+    width: 90px;              /* logo derecho más chico */
+    margin-top: 10px;
+  }
+
+  /* Menú en móvil */
+  .navbar ul {
+    flex-direction: column;   /* botones uno debajo del otro */
+    gap: 5px;
+  }
+
+  .navbar a {
+    padding: 12px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;              /* que ocupen todo el ancho */
+  }
+}
