@@ -431,15 +431,15 @@ header{
 @media(max-width:600px){
 
 header h1{
-    font-size:55px;
+    font-size:60px;
 }
 
 .logo-izquierda{
-    width:95px;
+    width:115px;
 }
 
 .imagen-derecha{
-    width:100px;
+    width:110px;
 }
 .logos{
     grid-template-columns:1fr;
